@@ -1,0 +1,60 @@
+<div id="zigzag">
+        <h1 align="center">About Us</h1>
+        <div id="zigzag-columns">
+            <div>
+            <h2>Vision</h2>
+            <p>- To enable students to be competitive through deployment of efficient skills and delivery of value added theoretical or practical understanding of a subject driven by “Innovation at its best”. 
+            </p>
+            </div>
+           
+            <div>
+                <h2>Teaching, Learning & Evaluation 
+                </h2>
+                <p>- Updated syllabus as per the current needs and trends to improve the quality of education through consultation with industry experts, Practical Exposure, ICT.
+                </p>    
+                <p>- Practical exposure ,workshops ,internship programs in association with IT industry, self learning activity, involving students in real time projects.
+                </p>
+                <p>- Mentorship, Remedial drills, Individual and group guidance, IESA, Internal examinations, feedback collection, Self Evaluation, practical Assignments.
+                </p>
+            </div>
+            <div>
+            <h2>About B.Voc Course</h2>
+            <p>- B.Voc courses are a newly implemented initiative by the Government of India under the Skill India scheme. 
+            </p>
+            <p>- The very nature of these courses is to provide maximum scope for practical exposure and minimum for theory. 
+            </p>
+            <p>- B.Vocational courses are introduced with an aim to bridge the gap between classroom learning and professional ambiances. 
+            </p>
+            <p>- They instil adequate and specific career based skills in students which help them pursue their specific area of interest and excel in it early. 
+            </p>
+            </div>
+            <div>
+            <h2>Software and Application Development 
+            </h2>
+            <p>- It involves the application of engineering concepts, techniques, and methods to the design, development, deployment and maintenance of software systems. 
+            </p> 
+            <p>- Will lead to development of student’s professional and interpersonal skills. 
+            </p>   
+            <p>- The program will inculcate among students a strong sense of civic, professional and ethical responsibility. </p>
+
+
+              <p>- Strive to develop a capacity for innovation and a passion for lifelong learning. 
+                </p>
+        </div>
+            <div>
+            <h2>Curriculum</h2>
+                <p>- The very nature of B.Voc in S&AD is to provide maximum scope for practical exposure and minimum for theory with 60% focus to practical implementation and 40% to theoretic learning.
+                </p>
+                <p>- Classroom learning, lectures, lab sessions, project work, seminars, group assignments, presentations and interactions with industry experts are all part of B.Voc curriculum. 
+                </p>
+                <p>- All of the department  sponsored programs are intended to supplement the academic aspects of the department. Syllabi are consistently upgraded to encompass latest developments in the software field such as newest & most advanced programming languages. 
+                </p>
+        </div>
+        <div>
+            <h2>Mission</h2>
+            <p>- To be a globally competitive department inspiring students to do the extraordinary in providing innovative solutions powered by technology and nurturing a trusting collaboration with stakeholders.
+                To pioneer innovations in software and application development through industry collaborations.  
+                </p>
+            </div>
+           
+    </div>

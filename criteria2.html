@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CodePen - Folder tree search_item</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="menu">
+        <h2>DS Folder tree search_item</h2>
+        <input id="searchbar" onkeyup="search_animal()" type="text" name="search" placeholder="Search new_item..">
+        <ul class="tree search_item">
+            <li>
+                <span class="branch search_item"><i class="fa fa-folder-o"></i> Criteria-2</span>
+                <ul class="tree search_item">
+                    <li>
+
+                        <span class="branch search_item"><i class="fa fa-folder-o"></i> Icons</span>
+                        <ul class="tree search_item">
+                            <li>
+                            <li><span class="Leaf search_item"><i class="fa fa-file-o "></i> System Icons</span></li>
+                            <li><span class="Leaf search_item"><i class="fa fa-file-o "></i> Accent Icons</span></li>
+                            <li><span class="Leaf search_item"><i class="fa fa-file-o "></i> App Icons</span></li>
+                            <li><span class="Leaf search_item"><i class="fa fa-file-o "></i> System Icons</span></li>
+                            <li><span class="Leaf search_item"><i class="fa fa-file-o "></i> Accent Icons</span></li>
+                            <li><span class="Leaf search_item"><i class="fa fa-file-o "></i> App Icons</span></li>
+                            <li><span class="Leaf search_item"><i class="fa fa-file-o "></i> System Icons</span></li>
+                            <li><span class="Leaf search_item"><i class="fa fa-file-o "></i> Accent Icons</span></li>
+                            <li><span class="Leaf search_item"><i class="fa fa-file-o "></i> App Icons</span></li>
+                            <li><span class="Leaf search_item"><i class="fa fa-file-o "></i> System Icons</span></li>
+                            <li><span class="Leaf search_item"><i class="fa fa-file-o "></i> Accent Icons</span></li>
+                            <li><span class="Leaf search_item"><i class="fa fa-file-o "></i> App Icons</span></li>
+                            <li><span class="Leaf search_item"><i class="fa fa-file-o "></i> System Icons</span></li>
+                            <li><span class="Leaf search_item"><i class="fa fa-file-o "></i> Accent Icons</span></li>
+                            <li><span class="Leaf search_item"><i class="fa fa-file-o "></i> App Icons</span></li>
+                            <li><span class="Leaf search_item"><i class="fa fa-file-o "></i> System Icons</span></li>
+                            <li><span class="Leaf search_item"><i class="fa fa-file-o "></i> Accent Icons</span></li>
+                            <li><span class="Leaf search_item"><i class="fa fa-file-o "></i> App Icons</span></li>
+                    </li>
+                </ul>
+            <li>
+
+                <span class="branch search_item"><i class="fa fa-folder-o"></i> Icons</span>
+                <ul class="tree search_item">
+                    <li>
+                    <li><span class="Leaf search_item"><i class="fa fa-file-o "></i> System Icons</span></li>
+                    <li><span class="Leaf search_item"><i class="fa fa-file-o "></i> Accent Icons</span></li>
+
+            </li>
+        </ul>
+        <li>
+            <span class="branch search_item"><i class="fa fa-folder-o"></i> Icons</span>
+            <ul class="tree search_item">
+                <li>
+                <li><span class="Leaf search_item"><i class="fa fa-file-o "></i> Banners</span></li>
+
+        </li>
+        </ul>
+        </li>
+
+        </ul>
+        </li>
+        <!-- partial -->
+        <script>// JavaScript code
+            function search_animal() {
+                let input = document.getElementById('searchbar').value
+                input = input.toLowerCase();
+                let x = document.getElementsByClassName('search_item ');
+
+                for (i = 0; i < x.length; i++) {
+                    if (!x[i].innerHTML.toLowerCase().includes(input)) {
+                        x[i].style.display = "none";
+                    }
+                    else {
+                        x[i].style.display = "list-item";
+                    }
+                }
+            }
+        </script>
+        <script src='https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'></script>
+        <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+        <script src="./js/script.js"></script>
+
+</body>
+
+</html>
